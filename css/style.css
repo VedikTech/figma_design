@@ -1,0 +1,306 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+
+  
+html,body{
+  background-color: #f0f0f0;
+  font-family:"Neue Machina";
+  color:#151515;
+
+
+
+}
+.navbar{
+    display:flex;
+    justify-content:center;
+   align-items:center ;
+
+ 
+   margin-top: 32px;
+    font-size: 18px;
+    column-gap:450px;
+    
+    
+
+}
+.logo-items-wrapper {
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width:52px;
+    height:52px;
+    margin-right:20px;
+}
+.items {
+    display: flex;
+ column-gap:50px;
+ 
+   
+    
+    
+}
+.items div a{
+  color:#151515;
+    text-decoration: none;
+   
+   
+}
+.btns{
+    display:flex;
+    column-gap: 20px;
+  
+}
+.btns button{
+    font-weight: 400;
+    background-color: transparent;
+    font-size: 18px;
+    height: 52px;
+    border: none;
+    cursor: pointer;
+
+   
+   
+
+}
+#login{
+    font-family:"Neue Machina";
+    background-color: white;
+    color: #151515;
+    width: 91px;
+}
+#sign_up{
+    font-family:"Neue Machina";
+    background-color: #151515;
+    color: white;
+    width: 112px;
+}
+.home{
+    max-width:1512px;
+    height:580px;
+   
+   display: flex;
+  justify-content: center;
+   margin-top:172px;
+ column-gap:90px;
+   box-sizing: border-box;
+   
+    
+}
+.home_heading{
+    padding-top:40px;
+    font-size:70px;
+    letter-spacing: -4px;
+    line-height: 80px;
+    
+    
+   
+
+}
+.illustration_1{
+    width:550px;
+    height:580px;
+}
+
+.info{
+    font-size: 18px;
+    margin-top:16px;
+    line-height: 26px;
+    font-family:"Neue Machina";
+}
+.email{
+    margin-top:42px;
+}
+.email input{
+    height:52px;
+    width:361px;
+    padding-left: 16px;
+    border:none;
+}
+.email button{
+    width:144px;
+    height:52px;
+    background-color: #151515;
+    color:#FFFFFF;
+    margin-left:none;
+}
+.payment{
+    margin-top:80px;
+   
+}
+
+#visa{
+  
+    margin-right: 28px;
+
+}
+#mastercard{
+  
+    margin-right: 28px;
+
+}
+.about{
+    display: flex;
+    justify-content: center;
+    margin-top:180px;
+    column-gap:190px;
+    font-weight:"regular";
+}
+.about_info button{
+    width:115px;
+    height:38px;
+    font-weight: 800;
+    margin-bottom:40px;
+    font-size: 14px;
+    
+}
+
+.heading{
+    font-size: 60px;
+letter-spacing: -3px;
+margin-bottom: 50px;
+
+}
+.about_info ul{
+    margin-top:50px;
+}
+.info{
+    font-size: 18px;
+    line-height: 26px;
+    margin-top:-10px;
+    font-family:"Neue Machina";
+}
+
+.about_info ul li{
+   
+    font-size: 20px;
+    list-style-type:square;
+    font-family:"Neue Machina";
+    line-height: 38px;
+    margin-left:20px;
+}
+.illustration_2{
+    width:550px;
+    height:580px;
+}
+.how_it_works{
+    display: flex;
+    justify-content: center;
+    margin-top:190px;
+    column-gap: 120px;
+
+}
+.works{
+   
+    display:flex;
+    margin-top: 20px;
+    column-gap:80px;
+    margin-bottom:30px;
+
+}
+
+.icon{
+    width:100px;
+    height:100px;
+}
+.works_heading{
+    font-family:"Neue Machina";
+    font-size:28px;
+    letter-spacing: -1.4px;
+    margin-bottom:10px;
+}
+.works_info{
+    font-family:"Neue Machina";
+    font-size:18px;
+    line-height: 26px;
+    
+}
+.how_it_works button{
+    font-family:"Neue Machina";
+    font-weight: 800;
+    margin-bottom:40px;
+    font-size: 14px;
+    width:160px;
+    height:38px;
+}
+.illustration_3{
+    width:450px;
+    height:698px;
+}
+
+.pricing{
+    margin-top:150px;
+    display:flex;
+    justify-content:center;
+    column-gap:190px;
+    text-align: right;
+}
+.pricing button{
+    width:108px;
+    height:38px;
+    font-size: 14px;
+    font-weight: 800;
+    margin-bottom:20px;
+    margin-top:100px;
+}
+.pricing_info{
+    font-size:18px;
+    line-height: 26px;
+    margin-top:-20px;
+    font-family:"Neue Machina";
+    
+    
+}
+.illustration_4{
+    width:470px;
+    height:500px;
+}
+.plans{
+    display: flex;
+    justify-content: center;
+    column-gap:50px;
+    margin-bottom:60px;
+}
+.plan_box{
+    border:1px solid #151515;
+    width:400px;
+    height:644px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:150px;
+    
+   
+}
+.plans_heading{
+    font-size:80px;
+   
+}
+sub,sup{
+    font-size:20px;
+    line-height: 28px;
+}
+.plans_info{
+    font-size:20px;
+    margin-bottom:100px;
+ 
+
+}
+.plan_box ul{
+    list-style-type:  square;
+}
+.plan_box ul li{
+    font-size:18px;
+    line-height: 28px;
+}
+
+.plan_box button{
+    width:356px;
+    height:52px;
+    font-size:18px;
+
+}
