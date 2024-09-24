@@ -1,6 +1,53 @@
-@media (max-width:1440px){
-    .navbar{
-        width:1260px;
+@media(max-width:1440px){
+    .plan_box{
        
+        width:400px;
+        height:644px;
+        
+       
+    }
+    .question_img{
+        width:480;
+        height:496px;
+    }
+    .plan_box button{
+        width:320px;
+        
+        
+     
+    
+    }
+}
+@media(max-width:1024px){
+    .illustration_2{
+        width:500px;
+        height:432px;
+    }
+    .illustration_3{
+        width:420px;
+        height:600px;
+    }
+    .illustration_4{
+        width:379.76px;
+        height:404px;
+    }
+    .question_img{
+        width:390px;
+        height:403px;
+    }
+    .plan_box{
+       
+        width:304px;
+        height:640px;
+        
+       
+    }
+    .plan_box button{
+        width:224px;
+       
+        font-size:18px;
+       
+     
+    
     }
 }
