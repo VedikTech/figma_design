@@ -412,9 +412,14 @@ hr{
     
     display: flex;
     flex-direction:column;
-    row-gap:150px;
-    margin-bottom: 330px;
+   row-gap: 130px;
+   
+ 
 
+}
+.list{
+    display: flex;
+    column-gap:40px;
 }
 .footer_content{
     
@@ -442,6 +447,9 @@ padding-top:20px;
     font-size:52px;
     margin-bottom:30px;
   
+}
+ #E1{
+    font-weight:800;
 }
 .footer_email{
     width:361px;

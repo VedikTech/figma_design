@@ -1,12 +1,16 @@
 @media(max-width:480px){
     body {
-        padding-left: 20px;  /* Adds space to the left */
-        padding-right: 20px; /* Adds space to the right */
+        
         overflow-x: hidden;
    
         
         height:100vh;
       }
+      .wrapper{
+        padding-left: 20px;  /* Adds space to the left */
+        padding-right: 20px; /* Adds space to the right */
+     
+    }
 .items,.btns{
     display: none;
     
@@ -141,15 +145,103 @@
     height:298px;
 }
 .plans{
+    margin-top:30px;
    flex-direction: column;
    align-items: center;
+   row-gap: 30px;
+  
+   
 }
 .plan_box{
-   
+  
     width:328px;
     height:640px;
- 
+
+ margin: 0;
     
    
+}
+.questions_box{
+   flex-direction: column;
+   align-items: center;
+
+}
+.question_img{
+    width:360px;
+    height:372px;
+}
+.que p{
+    width:350px;
+   
+}
+.footer{
+   flex-direction: column;
+  width:100%;
+   height: 1300px;
+   align-items: center;
+   row-gap: 80px;
+  
+   
+  
+  
+}
+.logowhite{
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+
+.footer_content{
+  flex-direction: column;
+  align-items: center;
+  
+}
+.list{
+    flex-direction: column;
+    row-gap:30px;
+    text-align: center;
+  
+}
+.list_email{
+    order: 1;
+}
+.footer_content p{
+    font-size:32px;
+    text-align: center;
+   
+    
+ 
+  
+}
+.footer_email{
+    width:197px;
+margin-bottom:50px;
+
+    
+}
+.footer_email_submit{
+    width:123px;
+    
+
+  
+    
+
+}
+.email_content{
+    margin-right:0;
+    flex-direction: column;
+}
+
+.socials{
+   flex-direction: column-reverse;
+align-items: center;
+
+
+}
+.socials p{
+   text-align: center;
+  margin-right:0;
+
+ 
 }
 }
