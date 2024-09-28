@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/media_mobile.css">
 </head>
 <body>
       <nav class="navbar">
@@ -28,9 +29,9 @@
       </nav>
 
       <header class="home">
-            <div>
-                <p class="home_heading">Always Track & <br>
-                    Analyze Your Business <br>
+            <div class="home_content" >
+                <p class="home_heading">Always Track & <br class="hide-on-mobile">
+                    Analyze Your Business <br class="hide-on-mobile">
                     Statistics To Succeed.</p>
 
                     <p  class="info">A better way to manage your sales, team, clients & marketing <br>
@@ -48,28 +49,27 @@
             </div>
             <div><img class="illustration_1" src="images/Illustration_1.png" alt=""></div>
       </header>
-
       <div class="about">
-        <div><img class="illustration_2" src="images/Illustrations_2.png" alt=""></div>
+        <div class="image_wrapper">
+            <img class="illustration_2" src="images/Illustrations_2.png" alt="">
+        </div>
         <div class="about_info">
-             <button >About us</button>
-             <p class="heading">Faster, friendlier feedback <br>
-                loops make life easier.</p>
-                <p class="info">Add a Viewer to your team so they can see everything you share, or invite <br>
-                    people to individual documents. It’s up to you. Stakeholders can check <br>
-                    out designs in their web browser, test prototypes and leave feedback for free.</p>
-        
-                   <ul>
-                    <li>Shared Cloud Libraries, for a single source of truth</li>
-                    <li>Prototype previews for user testing and research</li>
-                    <li>Easy organization with projects</li>
-                    <li>Free developer handoff, right inside the browser</li>
-                    <li>Two-factor authentication and SSO</li>
-                   </ul>
-                </div>
-      </div>
-
-
+            <button>About us</button>
+            <p class="heading">Faster, friendlier feedback <br> loops make life easier.</p>
+            <p class="info">
+                Add a Viewer to your team so they can see everything you share, or invite <br class="hide-on-mobile">
+                people to individual documents. It’s up to you. Stakeholders can check <br class="hide-on-mobile">
+                out designs in their web browser, test prototypes and leave feedback for free.
+            </p>
+            <ul>
+                <li>Shared Cloud Libraries, for a single source of truth</li>
+                <li>Prototype previews for user testing and research</li>
+                <li>Easy organization with projects</li>
+                <li>Free developer handoff, right inside the browser</li>
+                <li>Two-factor authentication and SSO</li>
+            </ul>
+        </div>
+    </div>
 
       <div class="how_it_works">
         
@@ -137,7 +137,7 @@
 
 
       <div class="pricing">
-        <div><img src="images/illustrations_4.png" alt=""></div>
+        <div><img  class="illustration_4"src="images/illustrations_4.png" alt=""></div>
         <div>
             <button>Pricing</button>
             <p class="heading">Select a membership level <br>

@@ -18,9 +18,13 @@ html,body{
     display:flex;
     justify-content:center;
    align-items:center ;
-
- 
-   margin-top: 32px;
+   position:fixed;
+   top:0;
+ width:100%;
+ background-color:#f0f0f0;
+ height:72px;
+ padding-top:20px;
+  
     font-size: 18px;
     column-gap:450px;
     
@@ -80,7 +84,7 @@ html,body{
     width: 112px;
 }
 .home{
-    max-width:1512px;
+    width:100%;
     height:580px;
    
    display: flex;
@@ -127,11 +131,13 @@ html,body{
     background-color: #151515;
     color:#FFFFFF;
     margin-left:none;
+    margin-left:-3px;
 }
 .payment{
     margin-top:80px;
    
 }
+
 
 #visa{
   
@@ -149,6 +155,11 @@ html,body{
     margin-top:180px;
     column-gap:190px;
     font-weight:"regular";
+}
+.about_info{
+    display: flex;
+    flex-direction: column;
+   
 }
 .about_info button{
     width:115px;
@@ -468,3 +479,4 @@ padding-top:20px;
     margin-top:20px;
     margin-right:330px;
 }
+

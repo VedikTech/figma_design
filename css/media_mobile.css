@@ -1,0 +1,155 @@
+@media(max-width:480px){
+    body {
+        padding-left: 20px;  /* Adds space to the left */
+        padding-right: 20px; /* Adds space to the right */
+        overflow-x: hidden;
+   
+        
+        height:100vh;
+      }
+.items,.btns{
+    display: none;
+    
+}
+.navbar{
+    position:fixed;
+    top:0;
+}
+.logo{
+    position: fixed;
+    left:0;
+    margin-left:20px;
+}
+.home{
+    flex-direction: column;
+    margin-top:200px;
+   
+    
+   
+  
+}
+.home_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home_heading{
+    font-size:52px;
+    line-height:60px; 
+    letter-spacing: -4px;
+   text-align: center;
+   margin-bottom:40px;
+   
+  
+}
+.info{
+    text-align: center;
+}
+
+.hide-on-mobile{
+    display: none;
+}
+.illustration_1{
+   display: none;
+}
+.email input{
+    height:52px;
+    width:164px;
+   
+    
+}
+.email button{
+    width:110px;
+    height:52px;
+   
+   
+}
+#visa{
+  
+  width:65px;
+
+}
+#mastercard{
+  
+   width:50px;
+
+}
+.about {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    padding: 20px;
+    row-gap: 20px; /* Space between items */
+}
+
+.about_info {
+    order: 1; /* Ensure the text and button come first */
+    text-align: center;
+}
+
+.image_wrapper {
+    order: 2; /* Ensure image comes after the text and button */
+    width: 100%;
+    text-align: center; /* Center the image */
+}
+
+.illustration_2 {
+    width: 370px; /* Fixed width for mobile */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.about ul {
+    order: 3; /* Ensure the list comes after the image */
+    text-align: center; /* Center the list */
+}
+
+.heading {
+    font-size: 30px;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+.how_it_works{
+   
+    flex-direction: column-reverse;
+    align-items: center;
+   
+
+}
+.works{
+   
+   
+    flex-direction: column;
+   
+
+}
+.illustration_3{
+    width:280px;
+    height:400px;
+}
+.pricing{
+  
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+   
+}
+.illustration_4{
+    width:280px;
+    height:298px;
+}
+.plans{
+   flex-direction: column;
+   align-items: center;
+}
+.plan_box{
+   
+    width:328px;
+    height:640px;
+ 
+    
+   
+}
+}
