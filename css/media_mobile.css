@@ -9,7 +9,7 @@
       .wrapper{
         padding-left: 20px;  /* Adds space to the left */
         padding-right: 20px; /* Adds space to the right */
-     
+       box-sizing: border-box;
     }
 .items,.btns{
     display: none;
@@ -79,11 +79,11 @@
 
 }
 .about {
-    display: flex;
+   
     flex-direction: column; /* Stack items vertically */
     align-items: center;
-    padding: 20px;
-    row-gap: 20px; /* Space between items */
+   
+    row-gap: 50px; /* Space between items */
 }
 
 .about_info {
@@ -98,8 +98,8 @@
 }
 
 .illustration_2 {
-    width: 370px; /* Fixed width for mobile */
-    height: auto; /* Maintain aspect ratio */
+    width: 330px; /* Fixed width for mobile */
+    height: 280; /* Maintain aspect ratio */
 }
 
 .about ul {
@@ -135,7 +135,7 @@
 }
 .pricing{
   
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     text-align: left;
    
@@ -171,7 +171,7 @@
     height:372px;
 }
 .que p{
-    width:350px;
+    width:250px;
    
 }
 .footer{
